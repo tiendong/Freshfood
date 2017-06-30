@@ -1,0 +1,53 @@
+*{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 14px}
+a{color:#000000}
+body{background-color: #4ca42d}
+
+
+/*top menu */
+.topmenu li a{margin: 10px 0;padding: 0 15px}
+.topmenu li span{color: #4ca42f}
+.topmenu li i{color: #4ca42f}
+.logo_menu{
+    display: inline-block;
+    color: #fff;
+    background: #ccc;
+    font-size: 19px;
+    line-height: 27px;
+    height: 27px;
+    width: 27px;
+    text-align: center;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;}
+.logo_menu:hover{color: white;background-color: #4ca42f}
+.topmenu li a:hover{color: #4ca42f;background-color:inherit}
+.main_menu{background-color: white;position: fixed;z-index: 1;border-bottom: 1px solid silver;}
+/* end */
+
+
+/*slide*/
+.head_slide{margin-top: 50px;background-color: white}
+.sale{
+    left: 35%;
+    bottom: 65%;
+    font-size: 42px;
+    background-color: red;
+    -webkit-border-radius: 100%;
+    padding: 22px 4px;
+    color: white;
+    position: absolute
+}
+.tit_slide{left: 55%;right: 10%;bottom: 30%}
+.tit_slide h1{color: #4ca42f;font-weight: 600}
+
+/*end*/
+
+/*artical*/
+ article{width: 100%;min-height: 800px;background-color: white;border-top-left-radius:10px;border-top-right-radius:10px }
+ .thit{padding-top: 50px}
+ .tit_product{line-height: 10px;text-transform: capitalize;font-size: 16px;font-weight: bold}
+ .line{height: 10px;background-color: #4ca42f}
+ .control .glyphicon{color: #4ca42f;font-size: 20px;margin: -8px 17px}
+.carousel-control.left{background-image: none}
+.carousel-control.right{background-image: none}
+/*end*/
