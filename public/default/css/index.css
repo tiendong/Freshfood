@@ -44,10 +44,15 @@ body{background-color: #4ca42d}
 
 /*artical*/
  article{width: 100%;min-height: 800px;background-color: white;border-top-left-radius:10px;border-top-right-radius:10px }
- .thit{padding-top: 50px}
+ .thit,.rau,.haisan{padding: 50px 0px;}
  .tit_product{line-height: 10px;text-transform: capitalize;font-size: 16px;font-weight: bold}
  .line{height: 10px;background-color: #4ca42f}
- .control .glyphicon{color: #4ca42f;font-size: 20px;margin: -8px 17px}
+ .control .glyphicon{color: #4ca42f;font-size: 20px;margin: -8px 6px}
 .carousel-control.left{background-image: none}
 .carousel-control.right{background-image: none}
+#product1,#product2,#product3{padding-top: 35px}
+.thumbnail{margin:0px 10px }
+.btn_shop{background-color: #4ca42f;color: white;}
+.btn_shop:hover{background-color: white;color: #4ca42f;border: 1px solid #4ca42f}
 /*end*/
+
